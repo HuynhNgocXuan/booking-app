@@ -1,0 +1,14 @@
+.wrapper {
+    
+}
+
+.container {
+    width: var(--default-layout-width);
+    display: flex;
+    height: 1000px;
+    margin-top: calc(var(--default-layout-header-height) + var(--search-height));
+}
+
+.content {
+    flex: 1;
+}
